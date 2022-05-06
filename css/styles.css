@@ -1,0 +1,106 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: fit-content;
+}
+
+.top-container {
+    height: 100%;
+}
+
+.middle-container {
+    width: 60%;
+    background-color: white;
+    margin: 100px auto 100px auto;
+}
+
+.middle-container-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.middle-container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.middle-container-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.middle-container-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.bottom-container {
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    line-height: 3;
+}
+
+.middle-header {
+    border: 1px solid black;
+    background-color: lightgrey;
+    margin: 100px auto 50px auto;
+    line-height: 2;
+}
+
+.middle-header-title {
+    padding-left: 50px;
+}
+
+.centered-img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    color: white;
+}
+
+.icon {
+    height: 150px;
+    width: 200px;
+}
+
+.map-img {
+    height: 250px;
+    width: 400px;
+}
+
+button {
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #d9aa34;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  
